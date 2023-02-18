@@ -72,7 +72,7 @@ Escopo é a acessibilidade de objetos, variáveis e funções em diferentes part
 
 Em outras palavras, o que determina quais são os dados que podem ser acessados em uma determinada parte do código é o escopo. Imagine que escopo é uma caixa e tudo que for criado nessa caixa pode ser acessado por qualquer objeto dentro da mesma.
 
-** - Escopo global**
+ **- Escopo global**
 
 Quando você declara uma variável fora de qualquer função, seja ela var ou let, ela tem o escopo global, pois qualquer função no script consegue utilizar esta variável.
 

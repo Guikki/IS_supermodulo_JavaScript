@@ -12,7 +12,7 @@ Imagine que a cada vez que você desliga seu computador ou celular, todas suas i
 
 O ato de armazenar dados, de uma maneira temporária (até desligar o computador ou fechar um programa) ou permanente (gravar dados em um HD ou servidor), é tão essencial e importante que isso é feito de maneira bem frequente em programação, através de variáveis.
 
-> _**VARIÁVEIS EM JAVASCRIPT**_
+> **VARIÁVEIS EM JAVASCRIPT**
 
 
 Certamente você já se deparou com um jogo feito em JavaScript, e talvez nem tenha percebido.

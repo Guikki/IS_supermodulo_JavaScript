@@ -31,6 +31,7 @@ As variáveis são usadas para armazenar valores em JavaScript. Existem três pa
 
 
 **Var:**
+
 Declarar uma variável é reservar memória para armazenar uma informação.
 
 Essa informação vai ficar associada a essa variável, e para podermos fazer isso temos que usar um comando especial, que diga ao JavaScript “Ei, essa é uma variável! Guarde ela!”.
@@ -91,8 +92,6 @@ Então, em resumo, uma variável com escopo de bloco, é uma variável que foi d
 
 Este tipo de escopo só funciona com variáveis declaradas com a palavra chave let e esta é a grande diferença entre let e var.
 
-
-
 Let permite que você declare variáveis limitando seu escopo no bloco, instrução, ou em uma expressão na qual ela é usada. Isso é inverso da keyword var, que define uma variável globalmente ou no escopo inteiro de uma função, independentemente do escopo de bloco.
 
 "independentemente do escopo de bloco", na verdade, significa dizer que variáveis declaradas dentro de blocos internos da função, por exemplo, são vinculadas no escopo da função, não no bloco no qual elas são declaradas. 
@@ -102,7 +101,6 @@ Se isso parece confuso - e realmente é -, apenas entenda que, ao contrário do 
 Exemplo:
 
 ![image](https://user-images.githubusercontent.com/86801366/219828181-4f04fe44-cd87-4464-ac65-0152d4c79760.png)
-
 
 O Mesmo não se aplica quando você declara uma variável com var, pois o escopo de bloco não existe na palavra reservada var. 
 

@@ -62,7 +62,7 @@ A palavra-chave let é usada para declarar variáveis de escopo de bloco.
 
 Elas são criadas no escopo de bloco em que são declaradas e não podem ser acessadas antes de serem declaradas. Elas também podem ser reatribuídas posteriormente.
 
-Mas o que é Escopo?
+> _Mas o que é Escopo?_
 
 Em poucas palavras, escopo é a propriedade que determina onde uma variável pode ser utilizada dentro de um programa, por exemplo, se você declara uma variável dentro de uma função, só aquela função consegue utilizar a variável, e SE você declara uma variável fora de uma função, ela pode ser acessada de qualquer parte daquele mesmo script, pois ela foi declarada globalmente. 
 
@@ -72,17 +72,17 @@ Escopo é a acessibilidade de objetos, variáveis e funções em diferentes part
 
 Em outras palavras, o que determina quais são os dados que podem ser acessados em uma determinada parte do código é o escopo. Imagine que escopo é uma caixa e tudo que for criado nessa caixa pode ser acessado por qualquer objeto dentro da mesma.
 
- **- Escopo global**
+     - Escopo global
 
 Quando você declara uma variável fora de qualquer função, seja ela var ou let, ela tem o escopo global, pois qualquer função no script consegue utilizar esta variável.
 
- **- Escopo Local**
+     - Escopo Local
 
 Uma variável é local quando ela é declarada dentro de alguma função, pois isso significa que apenas aquela função consegue enxergá-la. 
 
 As demais funções do script não conseguem utilizá-la, pois a mesma foi declarada dentro de uma função específica. Neste ponto de vista, podemos dizer que o escopo local é completamente diferente do escopo global. 
 
- **- Escopo de Bloco**
+     - Escopo de Bloco
 
 E é aqui o grande pulo do gato da diferença entre var e let. O escopo de bloco. Primeiro para entender como esse escopo funciona, precisamos entender o que é um bloco na linguagem Javascript.
 

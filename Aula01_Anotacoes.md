@@ -1,4 +1,4 @@
-Variáveis
+> **Variáveis**
 
 A Computação tem, basicamente, duas funções: fazer cálculos e armazenar informações.
 
@@ -12,7 +12,7 @@ Imagine que a cada vez que você desliga seu computador ou celular, todas suas i
 
 O ato de armazenar dados, de uma maneira temporária (até desligar o computador ou fechar um programa) ou permanente (gravar dados em um HD ou servidor), é tão essencial e importante que isso é feito de maneira bem frequente em programação, através de variáveis.
 
-VARIÁVEIS EM JAVASCRIPT
+> _**VARIÁVEIS EM JAVASCRIPT**_
 
 
 Certamente você já se deparou com um jogo feito em JavaScript, e talvez nem tenha percebido.
@@ -30,7 +30,7 @@ Uma variável foi usada para armazenar o texto “Fulano”, que você escreveu.
 As variáveis são usadas para armazenar valores em JavaScript. Existem três palavras-chave comuns para declarar variáveis: var, let e const.
 
 
-Var:
+**Var:**
 Declarar uma variável é reservar memória para armazenar uma informação.
 
 Essa informação vai ficar associada a essa variável, e para podermos fazer isso temos que usar um comando especial, que diga ao JavaScript “Ei, essa é uma variável! Guarde ela!”.
@@ -41,7 +41,7 @@ A palavra-chave var é usada para declarar variáveis tradicionais em JavaScript
 
 exemplo:
 
-
+![image](https://user-images.githubusercontent.com/86801366/219828165-5bea97b1-72f8-4495-b6e8-4f36dddc5ea6.png)
 
 
 Como declarar mais de uma variável em uma linha
@@ -55,7 +55,7 @@ var dia,      mes,      ano;
 
 Ao declarar variáveis dessa maneira, apenas estamos reservando um espaço em memória, é como se disséssemos “Ei, JavaScript, reserve espaço para essas variáveis, depois vamos usar elas!”
 
-Let:
+**Let:**
 
 A palavra-chave let é usada para declarar variáveis de escopo de bloco. 
 
@@ -71,17 +71,17 @@ Escopo é a acessibilidade de objetos, variáveis e funções em diferentes part
 
 Em outras palavras, o que determina quais são os dados que podem ser acessados em uma determinada parte do código é o escopo. Imagine que escopo é uma caixa e tudo que for criado nessa caixa pode ser acessado por qualquer objeto dentro da mesma.
 
-Escopo global
+** - Escopo global**
 
 Quando você declara uma variável fora de qualquer função, seja ela var ou let, ela tem o escopo global, pois qualquer função no script consegue utilizar esta variável.
 
-Escopo Local
+ **- Escopo Local**
 
 Uma variável é local quando ela é declarada dentro de alguma função, pois isso significa que apenas aquela função consegue enxergá-la. 
 
 As demais funções do script não conseguem utilizá-la, pois a mesma foi declarada dentro de uma função específica. Neste ponto de vista, podemos dizer que o escopo local é completamente diferente do escopo global. 
 
-Escopo de Bloco
+ **- Escopo de Bloco**
 
 E é aqui o grande pulo do gato da diferença entre var e let. O escopo de bloco. Primeiro para entender como esse escopo funciona, precisamos entender o que é um bloco na linguagem Javascript.
 
@@ -101,15 +101,16 @@ Se isso parece confuso - e realmente é -, apenas entenda que, ao contrário do 
 
 Exemplo:
 
+![image](https://user-images.githubusercontent.com/86801366/219828181-4f04fe44-cd87-4464-ac65-0152d4c79760.png)
 
 
 O Mesmo não se aplica quando você declara uma variável com var, pois o escopo de bloco não existe na palavra reservada var. 
 
-Const:
+**Const:**
 
 A palavra-chave const é usada para declarar variáveis constantes. Elas são criadas no escopo de bloco em que são declaradas e não podem ser acessadas antes de serem declaradas. Elas não podem ser reatribuídas após a sua inicialização.
 
-Conclusão - Variáveis:
+> _**Conclusão - Variáveis:**_
 
 Em resumo, as variáveis são usadas para armazenar valores em JavaScript. 
 Existem três palavras-chave comuns para declarar variáveis: var, let e const. Var é usada para declarar variáveis tradicionais e tem um comportamento de hoisting, let é usada para declarar variáveis de escopo de bloco e pode ser reatribuída, e const é usada para declarar variáveis constantes e não pode ser reatribuída.

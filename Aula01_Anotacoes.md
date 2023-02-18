@@ -30,7 +30,7 @@ Uma variável foi usada para armazenar o texto “Fulano”, que você escreveu.
 As variáveis são usadas para armazenar valores em JavaScript. Existem três palavras-chave comuns para declarar variáveis: var, let e const.
 
 
-**Var:**
+> _**Var:**_
 
 Declarar uma variável é reservar memória para armazenar uma informação.
 
@@ -56,7 +56,7 @@ var dia,      mes,      ano;
 
 Ao declarar variáveis dessa maneira, apenas estamos reservando um espaço em memória, é como se disséssemos “Ei, JavaScript, reserve espaço para essas variáveis, depois vamos usar elas!”
 
-**Let:**
+> _**Let:**_
 
 A palavra-chave let é usada para declarar variáveis de escopo de bloco. 
 
@@ -104,7 +104,7 @@ Exemplo:
 
 O Mesmo não se aplica quando você declara uma variável com var, pois o escopo de bloco não existe na palavra reservada var. 
 
-**Const:**
+> _**Const:**_
 
 A palavra-chave const é usada para declarar variáveis constantes. Elas são criadas no escopo de bloco em que são declaradas e não podem ser acessadas antes de serem declaradas. Elas não podem ser reatribuídas após a sua inicialização.
 
